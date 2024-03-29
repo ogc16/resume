@@ -12,12 +12,12 @@ profilepic = current_dir / "assets" / "profilepic.jpg"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Digital CV | Caleb Ngeno"
+PAGE_TITLE = "Caleb Ngeno"
 PAGE_ICON = ":random"
 NAME = "Caleb  Ngeno"
 DESCRIPTION = """
 Accomplished software developer with extensive background in IT. Proficient in areas of web development and SaaS web applications.
-Assisting enterprises by supporting data-driven decision-making.
+\n Assisting Small and Midsize Enterprises seeking data-driven decisions.
 """
 EMAIL = "ngenokibetcaleb@gmail.com"
 SOCIAL_MEDIA = {
@@ -71,10 +71,10 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience & Qulifications")
+st.subheader("Experience & Qualifications")
 st.write(
     """
-- ✔️ 7 Years expereince extracting actionable insights from data.
+- ✔️ 3 Years experience extracting actionable insights from data.
 - ✔️ Strong hands on experience and knowledge in Python and Excel.
 - ✔️ Good understanding of statistical principles and their respective applications.
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
@@ -89,7 +89,7 @@ st.write(
     """
 - 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, VBA
 - 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
+- 📚 Modelling: Logistic regression, linear regression, decition trees
 - 🗄️ Databases: Postgres, MongoDB, MySQL
 """
 )
@@ -100,41 +100,40 @@ st.write('\n')
 st.subheader("Work History")
 st.write("---")
 
-
-# --- JOB 1
+# --- JOB 2
 st.write('\n')
-st.write("🚧", "**Data Analyst | Parse Consulting - An Accounting firm**")
-st.write("01/2021 - 12/2023")
+st.write("💻", "**IT Consultant | Tech Gaetano – Consultancy firm**")
+st.write(" 01/2024 - Present")
 st.write(
     """
-Used Power BI and SQL to redeﬁne and track KPIs surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%.
-Led a team of analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads.
-Redesigned data model through iterations that improved predictions by 12%.
-Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%.
-Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase for clients.
-Compiled, studied, and inferred large amounts of data, modeling information to drive auto policy pricing.
-Devised KPIs using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc.
-Analyzed, documented, and reported user survey results to improve customer communication processes by 18%.
-Collaborated with analyst team to oversee end-to-end process surrounding customers' return data.
+- Advise clients on software. \n
+- Redeveloped frontend for 5 web applications. \n
+- Manage e-commerce websites for the clients by monitoring web traffic and tieing orders.\n
+- Acted as a data controller.\n
+- Integrated AI into existing web application. (chatbot)\n
+- Implemented a secure payment integration gateway into an e-commerce website (MPESA).\n
+- Built an AI powered news aggregator by scraping data from news multiple news sources.\n
+- Utilized a variety of API’s and developed one such as typesense hybrid search, OpenAI, google API’s.\n
+- Software Testing.
 
 """
 )
 
-# --- JOB 2
+# --- JOB 1
 st.write('\n')
-st.write("🚧", "**IT Consultant | Tech Gaetano – Consultancy firm**")
-st.write("09/2019 - 01/2020")
+st.write("🏢", "**Data Analyst | Parse Consulting - An Accounting firm**")
+st.write("05/2021 - 12/2023")
 st.write(
     """
-Advise clients on software. 
-Redeveloped frontend for 5 web applications. 
-Manage e-commerce website for our clients by monitoring web traffic.
-Acted as a data controller.
-Integrated AI into existing web application. (chatbot)
-Implemented a secure payment integration gateway into an ecommerce website (MPESA).
-Built an AI powered news aggregator by scraping data from news multiple news sources.
-Utilized a variety of API’s and developed one such as typesense hybrid search, OpenAI, google API’s.
-Software Testing.
+- Used Power BI and SQL to redeﬁne and track KPI's surrounding marketing initiatives, and supplied recommendations to boost landing page conversion rate by 38%.\n
+- Led a team of analysts to brainstorm potential marketing and sales improvements, and implemented A/B tests to generate 15% more client leads.\n
+- Redesigned data model through iterations that improved predictions by 12%.
+Built data models and maps to generate meaningful insights from customer data, boosting successful sales eﬀorts by 12%.\n
+- Modeled targets likely to renew, and presented analysis to leadership, which led to a YoY revenue increase for clients.\n
+- Compiled, studied, and inferred large amounts of data, modelling information to drive auto policy pricing.\n
+- Devised KPI's using SQL across company website in collaboration with cross-functional teams to achieve a 120% jump in organic traﬃc.\n
+- Analyzed, documented, and reported user survey results to improve customer communication processes by 18%.\n
+- Collaborated with the analysts' team to oversee end-to-end process surrounding customers' return data.
 
 """
 )
